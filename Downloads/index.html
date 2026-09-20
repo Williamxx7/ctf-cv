@@ -149,7 +149,7 @@
       <a href="https://github.com/Williamxx7" target="_blank" rel="noopener"><span class="k">gh:</span> Williamxx7</a>
     </div>
     <div class="rules">
-      Hver sektion er låst med en rigtig opgave — løs den med et eksternt værktøj (CyberChef, en terminal, en online decoder...). Kør tør? Bed om et hint. Stadig fast? Giv op, og se indholdet direkte.
+      Hver sektion er låst med en opgave. Nogen af opgaverne skal løses med et eksternt værktøj (CyberChef, en terminal, en online decoder...). Du kan bede om et hint, hvis det ikke er nok kan du give op, og få løsningen.
     </div>
     <div class="progress">
       <span id="progLabel">0 / 4 sektioner ulåst</span>
@@ -169,7 +169,7 @@
     </div>
     <div class="panel-body">
       <div class="challenge">
-        <div class="hint">Filen er base64-krypteret. Brug et eksternt værktøj (fx CyberChef, base64decode.org, eller <code>echo '…' | base64 -d</code> i en terminal) til at afkode den, og indtast resultatet herunder.</div>
+        <div class="hint">Filen er base64-krypteret. Brug et eksternt værktøj til at afkode den, og indtast resultatet.</div>
         <code class="block" id="b64edu">QUFVIEvDuGJlbmhhdm4gLSBDeWJlciBvZyBDb21wdXRlcnRla25vbG9naSAoQ0NUKSwgMjAyNeKAk251LiBCYWNoZWxvciBtZWQgZm9rdXMgcMOlIGludGVybmV0dGVrbm9sb2dpZXIsIGluZGxlanJlZGUgc3lzdGVtZXIsIHByb2dyYW1tZXJpbmcgb2cgY3liZXJzaWtrZXJoZWQu</code>
         <div class="row">
           <input type="text" id="ans-edu" placeholder="indsæt afkodet tekst">
@@ -180,7 +180,7 @@
           <button class="hint-btn" id="hintbtn-edu" onclick="showHint('edu')">💡 få hint</button>
           <button class="giveup-btn" id="giveupbtn-edu" onclick="giveUp('edu')" style="display:none">🏳️ giv op — lås op direkte</button>
         </div>
-        <div class="hint-text" id="hinttext-edu">Hint: den afkodede tekst indeholder blandt andet ordet "internetteknologier" — brug det til at tjekke om du afkodede rigtigt.</div>
+        <div class="hint-text" id="hinttext-edu">Hint: den afkodede tekst indeholder blandt andet ordet "internetteknologier" brug det til at tjekke om du afkodede rigtigt.</div>
       </div>
       <div class="revealed" id="reveal-edu">
         <div class="block">
@@ -328,8 +328,8 @@
   </div>
 
   <div id="finalPanel">
-    <h3>ACCESS GRANTED — fuld profil ulåst</h3>
-    <p>Alle sektioner er dekrypteret. Tak fordi du gad grave lidt — det siger vist noget om hvad jeg går op i.</p>
+    <h3>ACCESS GRANTED — fuld profil låst op</h3>
+    <p>Alle sektioner er dekrypteret. Håber det var lidt sjovere end at læse et CV igennem.</p>
     <div class="row">
       <a class="cta" href="mailto:william@aekko.com">Skriv til mig</a>
       <a class="cta" href="https://linkedin.com/in/william-larsen" target="_blank" rel="noopener">LinkedIn</a>
@@ -337,7 +337,7 @@
   </div>
 
   <footer>
-    et cv, tilgået via omveje — william holmquist larsen
+     CTF-inspireret CV — William Holmquist Larsen
   </footer>
 
 </div>
